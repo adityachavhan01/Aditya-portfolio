@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    /* background-color: rgb(248, 4, 4); */
+    background-color: rgb(112, 24, 24);
+    color: rgb(245, 235, 237);
+    width: 200px;
+    height: 160vh;
+}
+.sidebar:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li {
+    list-style: none;
+    font-size: 30 px;
+    padding: 33px 0;
+
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color: azure;
+}
+.main{
+    /* background-color: yellow; */
+    background-color: rgb(226, 231, 216);
+    color: rgb(1, 17, 21);
+
+}
+.container{
+    display: flex;
+    width: 100vw;
+}
+.infocontainer{
+    /* background-color: rgb(218, 128, 76); */
+    height: 45vh;
+    width: 80vw;
+    margin: 120px ;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.hello{
+    font-size: 50px;
+
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+}
+.about{
+    font-size: 30px;
+    margin-top: 5px;
+}
+.moreabout{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.buttons button{
+    margin-top: 30px;
+    padding: 10px 14px;
+    border-radius: 10px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    cursor:pointer ;
+}
+.buttons button:hover{
+    background-color: black;
+}
+.devpic img{
+    width: 22.1vh;
+}
+.contactform h1{
+    text-align: center;
+}
+.contactform {
+    padding: 34px;
+    padding-top: 144px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
