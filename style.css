@@ -4,13 +4,15 @@
 }
 .sidebar{
     /* background-color: rgb(248, 4, 4); */
-    background-color: rgb(112, 24, 24);
+    background-color: rgb(123, 56, 56);
     color: rgb(245, 235, 237);
     width: 200px;
     height: 160vh;
+    font-size: larger;
+    font-weight: bolder;
 }
 .sidebar:hover{
-    background-color: black;
+    background-color: rgb(169, 0, 0);
     color: aliceblue;
 }
 .sidebar nav{
@@ -20,7 +22,9 @@
     list-style: none;
     font-size: 30 px;
     padding: 33px 0;
-
+}
+.sidebar nav li img{
+    width: 10px;
 }
 .sidebar nav li a{
    text-decoration: none;
@@ -28,11 +32,12 @@
 }
 .main{
     /* background-color: yellow; */
-    background-color: rgb(226, 231, 216);
+    background-color: rgb(209, 241, 147);
     color: rgb(1, 17, 21);
 
 }
 .container{
+    background-color: rgb(209, 241, 147);
     display: flex;
     width: 100vw;
 }
@@ -81,6 +86,7 @@
 .devpic img{
     width: 22.1vh;
 }
+
 .contactform h1{
     text-align: center;
 }
@@ -90,5 +96,72 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.contactform{
+    text-align:start;
+}
+.contactform h1{
+    color: rgb(112, 24, 24);
+}
+.contactform div{
+    padding: 5px ;
+    margin-top: 6px;
+    border-radius: 20px;
+    width: 16vw;
+}
+.mb-3{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
 
+#emailHelp{
+    font-size: 15px;
+    color: blueviolet;
+    margin: 0;
+}
+.myintro{
+    padding: 5px;
+    margin: 5px;
+}
+.skillcontainner{
+    padding: 5px;
+}
+.skillitem{
+    display: flex;
+   font-size: 150%;
+}
+.skill{
+    background-color: brown;
+    width: 23px;
+    height: 15px;
+    border: 2px solid black;
+}
+.t1{
+    width: 50px;
+    background-color: aqua;
+}
+.t2{
+    width: 50px;
+    background-color: aqua;
+}
+.t3{
+    width: 150px;
+    background-color: red;
+}
+.t4{
+    width: 200px;
+    background-color: blueviolet;
+}
+.t5{
+    width: 200px;
+    background-color: rgb(29, 84, 103);
+}
+.myproject{
+    display: flex;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
 }
